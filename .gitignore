@@ -18,3 +18,5 @@ scripts/.vagrant/
 
 # Predownloaded packages sources.
 /packages/*/cache
+debs
+debs_all

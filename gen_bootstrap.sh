@@ -1,0 +1,1 @@
+/home/nightmare/文档/termux-fork/termux-packages/scripts/generate-bootstraps.sh --architectures aarch64

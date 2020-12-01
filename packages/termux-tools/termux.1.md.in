@@ -474,14 +474,11 @@ learn about the major differences.
     Consider to rebuild your software in Termux environment by using clang.
 
 `Only one user`
-:   Termux environment is single-user only. It operates under user id
-    assigned by Android OS which you cannot change.
+:   Termux environment is sinle-user only. There any kind of privilege
+    separation and you cannot change the given user id or name.
 
-    There no privilege separation, all Termux files such as package data
-    or user data in home directory is owned by same user id. Be extremely
-    careful when executing third-party scripts as they can easily do
-    unauthorized modifications which may lead to broken Termux installation
-    or lost user data.
+    Be extremely careful when executing third-party scripts as they are
+    able to tamper files in Termux prefix.
 
 PACKAGE MANAGEMENT
 ==================
